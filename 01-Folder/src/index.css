@@ -1,0 +1,96 @@
+body {
+  background-color: #fafafa;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+  justify-content: center;
+}
+
+/* Card styling */
+.Card {
+  background: #f8e7c7;
+  color: #222;
+  width: 320px;
+  min-height: 420px;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Hover effect */
+.Card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+/* Top area */
+.Card .top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Card .top img {
+  width: 45px;
+  height: 35px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Country name */
+.Card h5 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Middle section styling */
+.middle h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 5px 0;
+  line-height: 1.2;
+}
+
+/* Bottom area */
+.bottom {
+  display: flex;
+  justify-content: center;
+}
+
+/* Button styling */
+.bottom button {
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+  background-color: #d33f3f;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+/* Button hover */
+.bottom button:hover {
+  background-color: #b72626;
+}
+
+/* Small icon in button */
+.bottom img {
+  width: 18px;
+  height: 18px;
+}
